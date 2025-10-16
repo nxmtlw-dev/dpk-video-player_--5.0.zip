@@ -1,0 +1,16 @@
+/* TinyMCE 编辑器中的DPK视频样式 */
+.mce-content-body .dpk-video-series {
+    border: 2px dashed #667eea;
+    padding: 15px;
+    margin: 15px 0;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.mce-content-body .dpk-video-series::before {
+    content: "🎬 DPK视频系列: ";
+    font-weight: bold;
+    color: #667eea;
+    display: block;
+    margin-bottom: 10px;
+}

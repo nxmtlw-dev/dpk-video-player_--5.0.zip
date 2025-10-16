@@ -1,0 +1,33 @@
+/* DPK Video Player 后台样式 */
+.wrap {
+    max-width: 1200px;
+}
+
+.dpk-admin-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.dpk-admin-info h3 {
+    color: #333;
+    border-bottom: 2px solid #007cba;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.dpk-admin-info pre {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #007cba;
+    overflow-x: auto;
+}
+
+.dpk-admin-info code {
+    background: none;
+    padding: 0;
+    color: #e83e8c;
+}
